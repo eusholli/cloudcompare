@@ -1,0 +1,91 @@
+sep=;
+ Type;GCP;AWS;Azure
+Ci/cd;Cloud Build;AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline;Azure DevOps, Github
+Multi-cloud;Anthos, Anthos attached clusters, Anthos on bare metal, Anthos clusters on AWS, Anthos clusters on VMware, Anthos Config Management, Config Connector, Container-Optimized OS, Hybrid Connectivity, SAP on Google Cloud;AWS Outposts, , , , , Chef Automate AWS OpsWorks, AWS Controllers for Kubernetes, , AWS Direct Connect, SAP on AWS;App Modernization with Microsoft Azure, Azure Arc, Azure Arc, , , , Azure App Configuration, Azure Service Operator, Azure Container Instances, Hybrid Connections, SAP on Azure
+Service Mesh;Anthos Service Mesh, Cloud Router, Istio on Google Kubernetes Engine, Traffic Director, Traffic Director;AWS App Mesh, Amazon VPC, Istio on Amazon EKS, AWS App Mesh, AWS App Mesh;Azure Service Fabric, Azure VPN Gateway, Istio in Azure Kubernetes Service, Azure Service Fabric Mesh, Azure Service Fabric Mesh
+Core Compute;Cloud GPUs, Compute Engine, Compute Engine Autoscaler, OS Login, Persistent Disk;Amazon Elastic Compute Cloud (EC2) P3, Amazon Elastic Compute Cloud (EC2), AWS Autoscaling, Amazon EC2 Instance Connect, Amazon Elastic Block Store (EBS);GPU Optimized VMs, Azure Virtual Machines, Azure Autoscale, Azure Virtual Machine Scale Sets, , Azure Managed Disks
+Dedicated Vms;Sole-tenant nodes;Amazon EC2 Dedicated Host;Azure Dedicated Host
+Faas;Cloud Functions;AWS Lambda;Azure Functions Serverless Compute
+Paas;App Engine;AWS Elastic Beanstalk;Azure App Service
+Vmware Connectivity;VMware Engine;VMware Cloud on AWS;Azure VMware Solution
+Caas;Google Kubernetes Engine;Amazon Elastic Kubernetes Service (EKS), Amazon Elastic Container Service (ECS);Azure Kubernetes Service (AKS)
+Container Registry;Artifact Registry;Amazon Elastic Container Registry (ECR);Azure Container Registry
+Containers Without Infrastructure;Cloud Run;AWS Fargate, AWS Lambda, AWS App Runner;Azure Container Instances
+Business Intelligence;Looker;Amazon QuickSight;Microsoft Power BI
+Data Discovery And Metadata Management;Data Catalog;AWS Glue Data Catalog;Azure Purview
+Data Integration / Etl;Cloud Data Fusion;Amazon AppFlow, Amazon Data Pipeline, AWS Glue;Azure Data Factory
+Data Warehouse;BigQuery;Amazon Athena, Amazon Redshift;Azure Synapse Analytics
+Messaging;Pub/Sub, Pub/Sub Lite;Amazon Simple Notification Service (SNS), Amazon Simple Queueing Service (SQS), Amazon Simple Notification Service, Amazon Simple Queueing Service;Azure Service Bus Messaging, Azure Service Bus Messaging
+Open Source Processing;Dataproc;Amazon Elastic MapReduce (EMR), AWS Batch, AWS Glue;Azure Data Lake Analytics, HDInsight
+Query Service;BigQuery;Amazon Redshift Spectrum;Azure Synapse Analytics
+Stream Data Ingest;Pub/Sub;Amazon Kinesis;Azure Event Hubs
+Stream Data Processing;Dataflow;Amazon Kinesis;Azure Stream Analytics
+Workflow Orchestration;Cloud Composer, Workflows;Amazon Data Pipeline, AWS Glue, Managed Workflows for Apache Air, AWS Step Functions;Azure Data Factory, Azure Functions
+Document Data Storage;Firestore;Amazon DocumentDB, AWS DynamoDB, AWS AppSync;Azure Cosmos DB
+In-memory Data Store;Memorystore;Amazon ElastiCache;Azure Cache
+Nosql: Indexed;Datastore;Amazon DynamoDB;Azure Cosmos DB
+Nosql: Key-value;Cloud Bigtable;Amazon DynamoDB;Azure Cosmos DB
+Rdbms;Cloud Spanner, Cloud SQL;Amazon Aurora, Amazon Relational Database Service (RDS), Amazon Aurora;Azure SQL Database, Azure Database for MySQL and Azure Database for PostgreSQL
+Relational;Bare Metal Solution;Amazon RDS for Oracle;Azure Oracle Database Enterprise Edition
+Client Libraries;Cloud SDK;AWS SDKs;Azure SDKs
+Cloud Development Ide Plugin;Cloud Code for IntelliJ, Cloud Code for VS Code;AWS Toolkit for IntelliJ, AWS Toolkit for Visual Studio Code;Azure Toolkit for IntelliJ, Azure Tools for Visual Studio Code
+Cloud-based Ide;Cloud Shell;AWS CloudShell;Azure Cloud Shell
+Command-line Interface (Cli);Cloud SDK;AWS CLI;Azure CLI
+Marketplace;Marketplace;AWS Marketplace;Azure Marketplace
+Iot Platform;Cloud IoT;AWS IoT Core;Azure IoT Hub
+Cloud Cost Optimization;Recommender;AWS Cost Optimization;Azure Advisor
+Conversational Interface;Dialogflow;Amazon Lex;Azure Conversational AI
+Ml For Structured Data;AutoML Tables;Amazon SageMaker;AutoML in Azure ML Studio
+Ml Platform;AI Platform (Unified), AI Platform (Unified), AI Platform (Unified), AI Platform (Unified), AI Platform Deep Learning VM Image, AI Platform Notebooks, TensorFlow Enterprise;Amazon SageMaker, Amazon SageMaker, Amazon SageMaker Autopilot, Amazon SageMaker, Amazon SageMaker, Amazon EC2 P3, Amazon SageMaker, Tensorflow on AWS;Azure AI Platform, Azure Machine Learning, Azure Cognitive Services, Azure AI Platform, Azure Data Science Virtual Machines, Azure Notebooks, Azure Databricks
+Natural Language Processing;Cloud Natural Language API;Amazon Comprehend;Azure Text Analytics
+Personalization;Recommendations AI;Amazon Personalize;Azure Personalizer
+Translation;AutoML Translation;Amazon Translate;Azure Translator
+Video Intelligence;Video Intelligence API;Amazon Rekognition Video;Azure Video Indexer
+Vision: Read And Extract Text;Cloud Vision;Amazon Textract;Azure Computer Vision
+Vision: Speech-to-text;Speech-to-Text;Amazon Transcribe;Azure Speech to Text
+Api Management;Apigee API Management;Amazon API Gateway;Azure API Management
+Cost Management;Cost Management;AWS Budgets;Azure Cost Management
+Deployment;Cloud Deployment Manager;AWS CloudFormation;Azure Deployment Manager
+Container Migration;Migrate for Anthos;AWS App2Container;Azure Migrate
+Server Migration;Migrate for Compute Engine;AWS Server Migration Service;Azure Migrate
+Sql Database Migration;Database Migration Service;AWS Database Migration Service;Azure Database Migration Service
+Storage Migration;Storage Transfer Service, Transfer Appliance;AWS Storage Gateway, AWS Snowball;Azure Migrate, Azure Data Box
+Cdn;Cloud CDN;Amazon CloudFront;Azure Content Delivery Network
+Ddos Firewall;Google Cloud Armor Managed Protection;AWS Shield Basic/Advanced;Azure DDoS Protection Basic/Advanced
+Dedicated Interconnect Connection;Cloud Interconnect;AWS Direct Connect;Azure ExpressRoute
+Domains And Dns;Cloud DNS, Cloud Domains;Amazon Route 53, Amazon Route 53;Azure DNS, Azure App Service
+Load Balancer;Cloud Load Balancing;AWS Elastic Load Balancing;Azure Load Balancing
+Network Monitoring;Network Intelligence Center, VPC Flow Logs;, Amazon VPC Flow Logs;, Azure Network Watcher
+Network Security;Cloud VPN;AWS Virtual Private Network (VPN);Azure Virtual Private Network (VPN)
+Premium Networking;Network Service Tiers;;
+Services;Service Directory;AWS Cloud Map;Consul on Azure
+Virtual Networks;Cloud NAT, Virtual Private Cloud;Amazon VPC NAT instances, Amazon Virtual Private Cloud (VPC);Azure NAT, Azure Virtual Network
+Web Application Firewall;Google Cloud Armor;AWS WAF;Azure WAF
+Audit Logging;Cloud Audit Logs;AWS CloudTrail;Azure Audit Logs
+Debugging;Cloud Debugger;AWS X-Ray;Azure Monitor Application Insights Snapshot Debugger
+Logging;Cloud Logging;Amazon CloudWatch Logs;Azure Monitor Logs
+Monitoring;Cloud Monitoring;Amazon CloudWatch;Azure Monitor
+Performance Tracing;Cloud Trace;AWS X-Ray;Azure Monitor Application Insights Distributed Tracing
+Profiling;Cloud Profiler;Amazon CodeGuru Profiler;Azure Monitor Application Insights Profiler
+Certificate Management;Certificate Authority Service;AWS Certificate Manager;Azure Active Directory Certificate Authority
+Ciam;Identity Platform;Amazon Cognito;Azure Active Directory B2C
+Container Security;Artifact Registry, Container Analysis, Container Security, GKE Sandbox;Amazon Elastic Container Registry (ECR), Amazon ECR Image Scanning, Security in Amazon Elastic Container Service (ECS), Amazon EKS Container Sandbox;Azure Container Registry, Azure Defender for container registries, Container Security in Azure Security Center, Azure Container Sandbox Development Environment
+Data Loss Prevention (Dlp);Cloud Data Loss Prevention;Amazon Macie;Azure Information Protection
+Encryption;Confidential Computing;AWS Nitro Enclaves;Azure Confidential Computing
+Exfiltration Prevention;VPC Service Controls;;
+Hardware Security Module (Hsm);Cloud HSM;AWS CloudHSM;Azure Dedicated HSM
+Iam;Cloud Identity, Identity and Access Management, Managed Service for Microsoft Active Directory;AWS Identity Services, Amazon Identity and Access Management, AWS Managed Microsoft AD;Azure Active Directory, Azure Identity Management, Azure Active Directory
+Resource Monitoring;Cloud Asset Inventory, Resource Manager;AWS Config, AWS OpsWorks;Azure Security Control, Azure Resource Manager
+Secret Management;Secret Manager;AWS Secrets Manager;Azure Key Vault
+Security Administration;Cloud Key Management Service;AWS Key Management Service (KMS);Azure Key Vault
+Security And Risk Management;Security Command Center;Amazon Guard Duty, AWS Security Hub;Azure Security Center, Azure Defender
+Zero Trust;BeyondCorp Enterprise;;Azure AD Conditional Access
+Build;Cloud Storage for Firebase, Firebase Auth, Firebase Hosting, Firebase Realtime Database;AWS Simple Storage Service (S3), Amazon Cognito, AWS Simple Storage Service (S3), AWS DynamoDB + AppSync;Azure Blob Storage, Azure Active Directory (AD), GitHub Pages, Static Web Apps, Azure Cosmos DB
+Engage;Firebase A/B Testing, Firebase Cloud Messaging, Firebase Dynamic Links, Firebase In-App Messaging, Firebase Remote Config, Google Analytics;Amazon Pinpoint, Amazon Device Messaging (ADM), Amazon Simple Notification Service (SNS), , Amazon Device Messaging (ADM), Amazon Simple Notification Service (SNS), , ;Azure Playfab, Azure Notification Hubs, , Azure Notification Hubs, Azure App Configuration, 
+Event Handling;Eventarc;AWS EventBridge;Azure Event Grid
+Kubernetes Platform;Knative;AWS Fargate;Azure Kubernetes Service
+Release & Monitor;Firebase App Distribution, Firebase Crashlytics, Firebase Performance Monitoring, Firebase Test Lab;, , , AWS Device Farm;Azure App Center, Azure App Center, , Azure App Center
+Block Storage;Persistent Disk;Amazon Elastic Block Store (EBS);Azure Disk Storage
+File Storage;Filestore;Amazon Elastic File System (EFS);Azure Disk Storage, Azure Files
+Infrequently Accessed Object Storage;Cloud Storage Archive;Amazon S3 Glacier;Azure Archive Storage
+Object Storage;Cloud Storage;AWS Simple Storage Service (S3);Azure Blob Storage
